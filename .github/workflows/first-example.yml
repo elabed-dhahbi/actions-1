@@ -32,7 +32,6 @@ jobs:
           uses: actions/download-artifact@v4
           with:
             name: dragon-test-file
-            path: dragon.txt
             
             
         - name: Read file
